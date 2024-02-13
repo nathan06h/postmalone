@@ -1,0 +1,222 @@
+/*Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: cell;
+
+}
+.slide-show {
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+
+}
+.list-images {
+    display: flex;
+    transition: 0.5s;
+}
+.btn:hover {
+    color: white;
+}
+.btn {
+    font-size: 60px;
+    color: #808080;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn-left {
+    left: 0;
+}
+.btn-right {
+    right: 0;
+}
+
+/*This is Post's Name */ 
+
+#post-name {
+    position: absolute;
+    top: 2%;
+    left: 3%;
+}
+#post-name .navpost-name {
+    color: #fff !important; 
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 15px;
+    opacity: 0.8;
+    letter-spacing: 3px;
+}
+
+
+/* All album */
+
+#nav-album{
+    position: absolute;
+    top: 16%;
+    right: 5%;
+    width: 335px;
+    height: 340px;
+    background-color: #FFFFFF1A;
+    
+}
+#nav-album .subnav-albumpost {
+    display:block;
+}
+#nav-album li {
+    line-height: 2.3;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#nav-album li a {
+   color: #fff; 
+   font-size: 12px;
+   text-decoration: none;
+   list-style-type: none;
+   font-family: 'Satisfy', sans-serif;
+   letter-spacing: 2px;
+   display: block;
+}
+#nav-album li a:hover {
+    background-color: #ccc;
+    color: #000;
+    display: block;
+}
+/*
+#qrcode {
+    float: right;
+    overflow: hidden;
+    object-fit: cover;
+    margin-left: 40px;
+}
+.qrme {
+    width: 80px;
+    height: 80px;
+    
+}
+*/
+
+
+/* Here is Post Malone's Music Road */
+/*#music-road {
+    position: absolute;
+    color: #fff;
+    font-family: 'Satisfy', sans-serif;
+    left: 8%;
+    bottom: 30%%;
+    font-size: 12px;
+    letter-spacing: 2px;
+} 
+*/
+ /* #movingspan {
+    position: relative;
+}
+#movingspan .moving-Span {
+    color: #fff;
+    font-family: 'Gowun Batang', serif;
+    background-color: #808080;
+    white-space: nowrap; 
+} */
+
+/*
+#movingtext {
+    position: absolute;
+    overflow: hidden;
+    margin: 50px;
+    background-color: #808080;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+#movingspan {
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    white-space: nowrap;
+    animation: moveText 5s linear infinite; 
+    font-family: 'Jost', sans-serif;
+  }
+@keyframes moveText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+ */
+
+/* here is post's life */
+#bg-navtext {
+    position: absolute;
+    left: 8%;
+    top: 50%; 
+    width: 320px;
+    height: 280px;
+    background-color: #FFFFFF1A;
+}
+#bg-navtext .subnav-text {
+    display:block;
+}
+#bg-navtext li {
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+#bg-navtext li a {
+    font-size: 12px;
+    font-family: 'Satisfy', sans-serif;
+    letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+}
+#bg-navtext li a:hover {
+    color: #000; 
+    background-color: #ccc;
+    display: inline-block;
+}
+
+
+
+
+/*footer here */ 
+#row {
+    position: absolute;
+    bottom: 10%;
+    left: 12%;
+}
+#row .social-links {
+}
+#row .social-links li {
+    display: inline-block;
+}
+#row .social-links li a {
+    opacity: 0.88888;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;    
+    letter-spacing: 4px;
+}
+#row .social-links li a:hover {
+    color: #000;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 4px;
+}
+/*
+#home-song {
+    position: absolute;
+    background-color: #808080;
+    width: 100px;
+    height: 100px;
+} 
+*/ 
+
+
+
